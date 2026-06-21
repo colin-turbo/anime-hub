@@ -13,7 +13,7 @@ import NotFound from './pages/NotFound';
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/anime-hub">
       <Routes>
         <Route element={<MainLayout />}>
           <Route path="/" element={<Home />} />
